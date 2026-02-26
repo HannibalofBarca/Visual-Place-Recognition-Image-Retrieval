@@ -1,6 +1,8 @@
 # Visual-Place-Recognition-Image-Retrieval
 This module implements a Content-Based Image Retrieval system using a ResNet feature extraction and spatial indexing
 
+**Note:** Download the VPR dataset from https://huggingface.co/datasets/ai4ce/NYU-VPR-public/tree/main
+
 * ResNet-18 model to generate semantic embeddings of images.
 * KD-Tree structure to index the high-dimensional feature vectors, enabling nearest-neighbor lookups
 
